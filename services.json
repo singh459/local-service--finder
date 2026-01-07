@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Plumber", "description": "Pipe & leakage repair" },
+  { "id": 2, "name": "Electrician", "description": "Electrical wiring" },
+  { "id": 3, "name": "Mechanic", "description": "Vehicle servicing" }
+]

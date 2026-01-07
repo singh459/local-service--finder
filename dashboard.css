@@ -1,0 +1,69 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header / Navigation */
+header {
+    background: #1e88e5;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Search Section */
+.search-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f2f2f2;
+}
+
+.search-section input {
+    width: 80%;
+    max-width: 420px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Service Cards */
+.services-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #1e88e5;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background: #1565c0;
+}
